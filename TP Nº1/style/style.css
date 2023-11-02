@@ -1,0 +1,30 @@
+#footer {
+    text-align: end;
+    margin-right: 5%;
+    color: blue
+}
+
+h1 {
+    color:blue;
+    text-align: left;
+    margin-left: 5%;
+}
+
+h2,h3,form {
+    text-align: center;
+    text-align: left;
+    margin-left: 5%;
+}
+
+body {
+    background-color: rgba(182, 234, 255, 0.5);
+}
+
+ol {
+    margin-left: 6%;
+}
+
+#submit, #reset {
+    background-color: black;
+    color:white
+}

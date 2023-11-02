@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP Nº 1</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grupo_J_Unidad1</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/style/style.css"
+    />
+  </head>
+
+  <body>
+    <h1>Seguro No Pagamos Coop.</h1>
+    <hr>
+    <h2>Elija su plan.</h2>
+    <h3>Un asesor se comunicara con usted a la brevedad.</h3>
     <form>
-        <div>
-            <div>
-            <label for="nombre">NOMBRE</label>
-            <input type="text" name="nombre">
-            </div>
-            <div>
-            <label for="apellido">APELLIDO</label>
-            <input type="text" name="apellido">
-            </div>
-            <div>
-            <label for="number">DNI</label>
-            <input type="text" name="dni">
-            </div>
-            <div>
-            <label for="e-mail">E-MAIL</label>
-            <input type="text" name="e-mail">
-            </div>
-            <div>
-            <label for="telefono">TELEFONO</label>
-            <input type="number" name="telefono">
-            <div>
-            <label for="seguro">TIPO DE SEGURO</label>
-            </div>
-            <div>
-            <select name="seguro">
-                <option value="basico">BASICO</option>
-                <option value="intermedio">INTERMEDIO</option>
-                <option value="premiun">PREMIUN</option>
-            </select>
-            </div>
-            <button type="submit">Enviar</button>
-            <button type="reset">Restablecer</button>
-        </div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre"/> 
+      <br>
+      <br>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido"/>
+      <br>
+      <br>
+      <label for="documento">Documento:</label>
+      <input type="text" id="documento" name="documento" placeholder="Escriba su documento"/>
+      <br>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Escriba su email"/>
+      <br>
+      <br>
+      <label for="tipo de seguro">Tipo de seguro:</label>
+
+      <ol><i>
+      <input type="radio" name="tipo de seguro" onclick ="alert('$500')" value="Básico"/>Básico <br>
+      <input type="radio" name="tipo de seguro" onclick ="alert('$1000')" value="Intermedio"/>Intermedio <br>
+      <input type="radio" name="tipo de seguro" onclick ="alert('$1500')" value="Premium"/>Premium
+      </i></ol>
+      <br>
+      <input type="submit" id="submit" value="Enviar consulta"/>
+      <input type="reset" id="reset" value="Resetea formulario"/>
     </form>
-</body>
+  </body>
+  <hr>
+  <footer id="footer">
+    <p><i>Copyright Grupo "J"</i></p>
+  </footer>
 </html>
