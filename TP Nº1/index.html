@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP Nº 1</title>
 </head>
+
 <body>
+    <h1>COTIZAMOS TU SEGURO</h1>
     <form>
         <div>
             <div>
-            <label for="nombre">NOMBRE</label>
-            <input type="text" name="nombre">
+                <label for="nombre">NOMBRE</label>
+                <input type="text" name="nombre">
             </div>
             <div>
-            <label for="apellido">APELLIDO</label>
-            <input type="text" name="apellido">
+                <label for="apellido">APELLIDO</label>
+                <input type="text" name="apellido">
             </div>
             <div>
-            <label for="number">DNI</label>
-            <input type="text" name="dni">
+                <label for="number">DNI</label>
+                <input type="text" name="dni">
             </div>
             <div>
-            <label for="e-mail">E-MAIL</label>
-            <input type="text" name="e-mail">
+                <label for="e-mail">E-MAIL</label>
+                <input type="text" name="e-mail">
             </div>
             <div>
-            <label for="telefono">TELEFONO</label>
-            <input type="number" name="telefono">
-            <div>
-            <label for="seguro">TIPO DE SEGURO</label>
+                <label for="telefono">TELEFONO</label>
+                <input type="number" name="telefono">
+                <div>
+                    <label for="seguro">TIPO DE SEGURO</label>
+                </div>
+                <div>
+                    <select name="seguro">
+                        <option value="basico">BASICO - $500,00</option>
+                        <option value="intermedio">INTERMEDIO - $1.000,00</option>
+                        <option value="premiun">PREMIUN - $1.500,00</option>
+                    </select>
+                </div>
+
+
+
+
+                <button type="submit">Enviar</button>
+
+
+
+
+                <button type="reset">Restablecer</button>
             </div>
-            <div>
-            <select name="seguro">
-                <option value="basico">BASICO</option>
-                <option value="intermedio">INTERMEDIO</option>
-                <option value="premiun">PREMIUN</option>
-            </select>
-            </div>
-            <button type="submit">Enviar</button>
-            <button type="reset">Restablecer</button>
-        </div>
     </form>
 </body>
+
 </html>
