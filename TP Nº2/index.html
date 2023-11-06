@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRUPO_J-TP2</title>
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/style/style.css" />
+</head>
+
+<body>
+  <h1>Clase 2 - Ejercitación</h1>
+  <hr />
+  <h2>Ejercicio 1</h2>
+  <h3>
+    Tengo desarrollada la siguiente función en javascript: <br />
+    function suma (a,b,callback){<br />
+    let c = a +b;<br />
+    callback();<br />
+    }
+  </h3>
+  <p id="p1">
+    <strong>¿Que es el tercer parámetro recibido?</strong><br />
+    El tercer parametro <i>"callback"</i> es una funcion que se llama cuando
+    se completa la ejecución de la función principal. En este caso, el
+    callback se llama después de que se realiza la suma de los dos números.
+  </p>
+  <p id="p2">
+    <strong>¿En que casos es obligatorio desarrollar este tipo de
+      funciones?</strong> <br>
+    Este tipo de funciones son obligatorias en los casos en los que se
+    necesita realizar una acción después de que la función principal haya
+    terminado de ejecutarse. Por ejemplo, si queremos mostrar un mensaje en la
+    pantalla después de realizar una suma, podemos utilizar un callback.
+  </p>
+  <label for="sum1">Valor1</label>
+  <input type="number" id="num1" placeholder="Ingrese el primer valor">
+  <br>
+  <br>
+  <label for="num2">Valor2</label>
+  <input type="number" id="num2" placeholder="Ingrese el segundo valor">
+  <br>
+  <br>
+
+  <button id="calcular">Calcular Suma</button>
+  <p id="Resultado"></p>
+
+
+  <br>
+  <hr>
+  <h2>Ejercicio 2</h2>
+  <h3>
+    Desarrollador una calculadora que tenga: <br>
+    ● 2 campos inputs para los operadnos <br>
+    ● 4 botones de operadores básicos (suma, resta, multiplicación, división) <br>
+    Al realizar la cuenta se deberá actualizar el campo resultado
+  </h3>
+  <label for="val1">Valor1</label>
+  <input type="number" id="val1" placeholder="Ingrese el primer valor">
+  <br>
+  <br>
+  <label for="val2">Valor2</label>
+  <input type="number" id="val2" placeholder="Ingrese el segundo valor">
+  <br>
+  <br>
+
+  <button id="calc">Calcular Operación</button>
+  <p id="Obtención"></p>
+
+
+  <script src="script.js"></script>
+  <hr>
+
+<footer id="footer">
+  <p><i>Copyright Grupo &copy; "J"</i></p>
+</footer>
+
+</html>
